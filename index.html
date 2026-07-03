@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AKnack — Support</title>
+<style>
+  :root{
+    --bg:#f6f5f3; --fg:#1a1a1a; --muted:#6b6b6b; --line:#e2e0dc; --card:#fff; --accent:#1a1a1a;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#0e0e0f; --fg:#ededed; --muted:#9a9a9a; --line:#26262a; --card:#161618; --accent:#ededed; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;padding:0 20px}
+  .wrap{max-width:620px;margin:0 auto;padding:72px 0 96px}
+  .brand{font-weight:700;letter-spacing:-.02em;font-size:15px;text-transform:uppercase;color:var(--muted)}
+  h1{font-size:34px;line-height:1.15;letter-spacing:-.03em;margin:.5em 0 .1em;font-weight:700}
+  .tagline{color:var(--muted);font-size:18px;margin:0 0 40px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:44px 0 12px;font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+  a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--muted)}
+  a:hover{border-bottom-color:var(--fg)}
+  p{margin:0 0 14px}
+  .email{font-size:20px;font-weight:600;letter-spacing:-.01em}
+  .faq p{margin:0 0 6px}
+  .faq .q{font-weight:600}
+  .faq .a{color:var(--muted);margin-bottom:18px}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+  .lang{color:var(--muted);font-size:13px;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">AKnack</div>
+  <h1>Support</h1>
+  <p class="tagline">The knack of coming back.</p>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Questions, bugs, or feedback? Write to us — we read every message.</p>
+    <p class="email"><a href="mailto:tsho4p@gmail.com">tsho4p@gmail.com</a></p>
+  </div>
+
+  <h2>FAQ</h2>
+  <div class="card faq">
+    <p class="q">Does the camera record me?</p>
+    <p class="a">No. During a session the front camera only confirms you're present. All detection runs on your device with Apple's Vision framework. No frame is ever stored, uploaded, or sent anywhere.</p>
+    <p class="q">Do I need an account?</p>
+    <p class="a">No account, no sign-in. Your progress is stored locally and removed when you delete the app.</p>
+    <p class="q">What if I miss a day?</p>
+    <p class="a">A missed day isn't a failure — it's the rep. There are no streaks to break.</p>
+    <p class="q">How do I reset my progress?</p>
+    <p class="a">Deleting the app removes all local data. Reinstall to start fresh.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <div class="card">
+    <p>AKnack collects no data. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>
+    © 2026 David Kalandadze. All rights reserved.
+    <div class="lang"><a href="#ru">Русская версия ниже</a></div>
+  </footer>
+
+  <div id="ru" style="margin-top:80px">
+    <div class="brand">AKnack / Стук</div>
+    <h1>Поддержка</h1>
+    <p class="tagline">Навык возвращаться.</p>
+
+    <h2>Связаться</h2>
+    <div class="card">
+      <p>Вопросы, баги или отзывы? Напиши нам — мы читаем каждое сообщение.</p>
+      <p class="email"><a href="mailto:tsho4p@gmail.com">tsho4p@gmail.com</a></p>
+    </div>
+
+    <h2>Частые вопросы</h2>
+    <div class="card faq">
+      <p class="q">Камера меня записывает?</p>
+      <p class="a">Нет. Во время сессии фронтальная камера лишь подтверждает твоё присутствие. Всё распознавание идёт на устройстве через Apple Vision. Ни один кадр не сохраняется, не загружается и никуда не отправляется.</p>
+      <p class="q">Нужен ли аккаунт?</p>
+      <p class="a">Ни аккаунта, ни входа. Прогресс хранится локально и удаляется вместе с приложением.</p>
+      <p class="q">А если пропущу день?</p>
+      <p class="a">Пропущенный день — не провал, а тот самый повтор. Никаких стриков, которые можно сломать.</p>
+      <p class="q">Как сбросить прогресс?</p>
+      <p class="a">Удаление приложения стирает все локальные данные. Переустанови, чтобы начать заново.</p>
+    </div>
+
+    <h2>Приватность</h2>
+    <div class="card">
+      <p>«Стук» не собирает никаких данных. Полная <a href="privacy.html#ru">Политика приватности</a>.</p>
+    </div>
+
+    <footer>© 2026 David Kalandadze. Все права защищены.</footer>
+  </div>
+</div>
+</body>
+</html>
